@@ -88,10 +88,6 @@ logical_operator "&&"|"||"|"!!"
 "div"		{return DIV;}
 "mod"		{return MODULUS;}
 "power"		{return POWER;}
-"add_eq"		{printf("+=");}
-"sub_eq"		{printf("-=");}
-"mul_eq"		{printf("*=");}
-"div_eq"		{printf("/=");}
 
 
 . {}

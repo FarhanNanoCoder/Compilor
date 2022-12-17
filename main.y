@@ -17,8 +17,8 @@
 	int if_done_list[1000];
 
     int declaration_pointer = 0;
-    int value[1000];
-    char varlist[1000][1000];
+    int value[1500];
+    char varlist[1500][1500];
 
     ///if already declared  return 1 else return 0
     int isdeclared(char str[]){
@@ -182,8 +182,7 @@ assign : ID ASGN expression SEMICOLON
 
 
 
-
-/*--------PTINTF STARTS----------*/
+/*--------PRIINTF STARTS----------*/
 
 print		: SHOW_VAR FBS ID FBE SEMICOLON 	
 					{
@@ -223,7 +222,7 @@ expression : NUM {$$ = $1;}
 			| ID 	
 					{
 						if(!isdeclared($1)) {
-							printf("Undefined : Variable %s is not declared\n",$1);
+							printf("Error : Variable %s is not declared\n",$1);
 							exit(-1);
 						}
 						else{
@@ -233,12 +232,10 @@ expression : NUM {$$ = $1;}
 			| expression POWER expression 
 					{
 						$$ = pow($1,$3);
-						printf("POWER");
 					}
 			| expression MODULUS expression 
 					{
 						$$ = $1 % $3;
-						printf("mod");
 					}
 			| expression PLUS expression 
 					{$$ = $1 + $3;}
