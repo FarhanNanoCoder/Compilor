@@ -1,0 +1,138 @@
+
+
+
+This is a single line comment
+
+mod
+POWER
+
+
+
+
+
+This is a single line comment
+
+Value of mod in a: 
+1
+
+
+
+Value of power in b: 
+16
+
+
+
+Value of addition in c: 
+13
+
+
+
+Value of subtraction in d: 
+7
+
+
+
+Value of multiplication in e: 
+30
+
+
+
+Value ofdivision in f: 
+5
+
+
+
+This is a single line comment
+
+
+
+
+
+
+
+
+
+
+
+
+
+Not equals to 3
+
+
+
+
+
+
+
+
+This is a single line comment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Default Block executed
+default
+
+
+
+
+This is a single line comment
+
+
+
+
+
+In For loop
+In For loop
+In For loop
+In For loop
+In For loop
+Loop executes 5 times
+
+
+
+
+This is a single line comment
+
+
+
+
+
+1 : In increasing while loop
+2 : In increasing while loop
+3 : In increasing while loop
+
+This is a single line comment
+
+
+
+
+
+4 : In decreasing while loop
+3 : In decreasing while loop
+2 : In decreasing while loop
+
+
+
+
+
+This is a single line comment
+
+Give integer input: 
+
+Value Taken from you: 
+7
+
+
+Compilation Successful
+
